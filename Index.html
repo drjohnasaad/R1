@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>My Web Page</title>
-  </head>
-  <body>
-    <script src="path/to/telegraf.js"></script>
-    <script src="path/to/fs.js"></script>
-    <script>
-     // Import the necessary modules
+
+
 const Telegraf = require('telegraf');
 const { Extra, Markup } = require('telegraf');
 const fs = require('fs');
@@ -78,7 +70,4 @@ async function handleReportCommand(ctx) {
 bot.startPolling();
 bot.command('report', handleReportCommand);
 
-    </script>
-  </body>
-</html>
-
+ 
